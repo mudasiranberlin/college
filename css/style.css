@@ -3,7 +3,7 @@
 
 body {
     font-family: verdana, arial sans-serif;
-    background-color:red;
+    background-color: red;
     margin: 0;
 }
 #container{
@@ -12,10 +12,10 @@ body {
     position: relative;
 
 }
-/* Header design #eeeeee*/
+/* Header design */
 header{
     padding-bottom: 25px;;
-    background:red;
+    background:#1AB79F;
 }
 
 /*  Logo    */
@@ -81,85 +81,87 @@ div{
 /* Navigation Design */
 
 nav {
-	background: #43a286;
-	height: 2.3em;
+    background: #1AB79F;
+    height: 2.3em;
+    background: #1AB79F;
+    height: 5em;
 }
 ul, li {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
 }
 ul {
-	height: 2em;
-	width: 100%;
+    height: 2em;
+    width: 100%;
 }
 li {
-	position: relative;
+    position: relative;
 }
 ul li a {
-	display: block;
-	line-height: 2em;
-	padding: 0 1em;
-	color: white;
-	text-decoration: none;
+    display: block;
+    line-height: 2em;
+    padding: 0 1em;
+    color: white;
+    text-decoration: none;
 }
 nav > li a:hover, .topmenu li:hover > a {
-	background: #399077;
-	height: 2em;
-	padding-top: .3em;
-	position: relative;
-	top: -.3em;
-	border-radius: .3em .3em 0 0;
+    background: #399077;
+    height: 2em;
+    padding-top: .3em;
+    position: relative;
+    top: -.3em;
+    border-radius: .3em .3em 0 0;
 }
 .current, a:hover.current, .topmenu li:hover a.current {
-	background: #399077;
-	color: #eee;
-	padding-top: .3em;
-	border-radius: .3em .3em 0 0;
-	position: relative;
-	top: -.3em;
-	border-bottom: .3em solid #399077;
-	cursor: default;
+    background: #399077;
+    color: #eee;
+    padding-top: .3em;
+    border-radius: .3em .3em 0 0;
+    position: relative;
+    top: -.3em;
+    border-bottom: .3em solid #399077;
+    cursor: default;
 }
 /*dropdown menu styles*/
 ul.submenu {
-	float: none;
-	background: #399077;
-	width: auto;
-	height: auto;
-	position: absolute;
-	top: 2em;
-	left: -1000em;
-	-moz-transition:max-height 0.5s ease-in-out;
-	-webkit-transition:max-height 0.5s ease-in-out;
-	-o-transition:max-height 0.5s ease-in-out;
-	transition:max-height 0.5s ease-in-out;
-	overflow: hidden;
+    float: none;
+    background: #399077;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 2em;
+    left: -1000em;
+    -moz-transition:max-height 0.5s ease-in-out;
+    -webkit-transition:max-height 0.5s ease-in-out;
+    -o-transition:max-height 0.5s ease-in-out;
+    transition:max-height 0.5s ease-in-out;
+    overflow: hidden;
 }
 ul.submenu li {
-	float: none;
+    float: none;
     height: inherit;
 }
 .topmenu li:hover ul {
-	left: 0;
+    left: 0;
     z-index: 100;
-	max-height: 30em;
+    max-height: 30em;
 }
 ul.submenu li a {
-	border-bottom: 1px solid white;
-	padding: .2em 1em;
-	white-space: nowrap;
+    border-bottom: 1px solid white;
+    padding: .2em 1em;
+    white-space: nowrap;
 }
 ul.submenu li:last-child a {
-	border-bottom: none;
+    border-bottom: none;
 }
 ul.submenu li a:hover {
-	background: #43a286;
-	height: 2em;
-	padding-top: .2em;
-	top: 0;
-	border-radius: 0;
+    background: #43a286;
+    height: 2em;
+    padding-top: .2em;
+    top: 0;
+    border-radius: 0;
 }
 
 
@@ -360,3 +362,8 @@ footer{
         
 }
 
+.topmenu {
+    color: #200505;
+    background: black;
+    height: 50%
+}
